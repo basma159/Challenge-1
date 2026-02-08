@@ -383,3 +383,8 @@ footer {
     transform: scale(1.2);
     color: white;
 }
+@media (max-width : 567px){
+    body{
+        font-size: 14px;
+    }
+}
