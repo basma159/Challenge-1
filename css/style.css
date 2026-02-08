@@ -280,6 +280,16 @@ main {
         gap: 30px;
         text-align: center;
     }
+    .btn1{
+        margin: 0;
+    }
+    .btn{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
 }
 
 .h36 {
@@ -299,10 +309,14 @@ main {
     color: white;
     cursor: pointer;
 }
-
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
 .btn1 {
     background-color: hsl(171, 66%, 44%);
-    margin-right: 10px;
 }
 
 .btn2 {
