@@ -21,7 +21,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    padding-bottom: 30px;
+    padding: 30px;
 }
 
 .head1 {
@@ -105,6 +105,9 @@ main {
         padding: 20px 0;
         gap: 20px;
     }
+    .img2 img {
+    width: 100%;
+}
 }
 
 .div2 {
@@ -307,8 +310,9 @@ main {
 }
 
 .btn button:hover {
-    opacity: 0.4;
+    opacity: 0.5;
     transform: scale(1.1);
+    transition: 0.5s;
 }
 
 /* -------------------------section 6---------------------------- */
