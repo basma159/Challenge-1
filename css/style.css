@@ -342,14 +342,14 @@ footer {
 }
 
 .links {
-    width: 600px;
+    width: 40%;
     display: flex;
     justify-content: space-evenly;
 }
 
 @media (max-width : 567px) {
     .links {
-        width: 100%;
+        width: 30%;
         display: flex;
         flex-direction: column;
         justify-content: center;
