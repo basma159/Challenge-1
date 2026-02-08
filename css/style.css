@@ -251,7 +251,7 @@ main {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        gap: 40px;
+        gap: 60px;
     }
 }
 
